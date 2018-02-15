@@ -42,7 +42,6 @@ taşımaktadır ve aşağıda bu metin dosyası içeriği örnek üzerinde açı
 - i,202,Mario,Gomez,Almanya,Wolfsburg
 - 4,1,3,2,1
 
-
 Dosyanın ilk satırında, kaç adet ürün olduğu bilgisi ile ürün adları yer almaktadır. Örneğin, 5 adet
 ürün derecelendirilmiş olup, bu ürünlerin adları A, B, C, D ve E ürünleri olarak verilmiştir.
 İzleyen satırlar ise şu şekilde düzenlenmiştir: Önce müşteri bilgileri yer almakta (n:ulusal,
@@ -53,10 +52,8 @@ mühendisi olan ulusal müşteri A ürününe 3, B ürününe 4, C ürününe 3,
 1 puan vermiştir. Benzer şekilde, diğer müşteriler ve yaptıkları ürün derecelendirmeleri dosya
 içeriğinden de görüldüğü gibi izleyen satırlarda yer almaktadır.
 
-NOT-1: Derecelendirmeler 1 ile 5 arasında yapılmakta olup, 1 puan “çok kötü”, 5 puan ise “çok iyi”
-anlamındadır.
-NOT-2: Dosyadaki satırlardaki verilerin “virgül” işareti ile ayrıldığı görülmektedir. Verileri dosyadan
-elde ederken Java’da hazır olarak bulunan “StringTokenizer” sınıfını kullanabilirsiniz.
+- **NOT-1: Derecelendirmeler 1 ile 5 arasında yapılmakta olup, 1 puan “çok kötü”, 5 puan ise “çok iyi”
+anlamındadır.**
 
 Yukarıda tanıtılan dosya okunurken, ilgili müşteri nesnelerinin oluşturulup “Customer” tipinde bir
 dizi içinde biriktirilmesi, derecelendirme bilgilerinin ise iki boyutlu bir dizi içine aktarılması
