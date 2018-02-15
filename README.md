@@ -1,15 +1,13 @@
 # JavaProje-1
 
-Genel Problem Tanımı:
-
+### Genel Problem Tanımı:
 Çeşitli ürünler satan bir firmanın ulusal ve uluslararası müşterileri bulunduğu ve firmanın ürünleri
 hakkında müşterilerinden topladığı derecelendirmeleri (ratings) bir dosyada sakladığı
 varsayılmaktadır. Firma bu derecelendirmeler ile ilgili olarak çeşitli hesaplamalar, işlemler,
 raporlamalar yapmak istemektedir. Bu bağlamda aşağıda detaylı olarak verilen gereksinimleri
 karşılayacak Java kodlarını yazınız.
 
-Gereksinimler:
-
+### Gereksinimler:
 Müşterileri temsilen kalıtım kullanılarak bir sınıf hiyerarşisi oluşturulacaktır:
 “Customer” sınıfı, müşteri numarasını temsil etmek için int tipinde “CustomerID” değişkeni ile, ad
 ve soyadı temsilen String tipinde “Name” ve “Surname” değişkenlerine sahiptir. “Customer” sınıfı
@@ -28,23 +26,21 @@ değişkeni ile şehri temsilen String tipinde “City” değişkenleri bulunma
 “toString” metodu yazılmalıdır. Get ve Set metotlarını otomatik olarak oluşturunuz.
 Not: Müşteri hiyerarşisindeki sınıflarda veriler ile ilgili hata kontrollerine gerek yoktur.
 
-
 Bu noktada, istenen işlemlere geçmeden önce, firmanın dosya formatının anlaşılması önem
 taşımaktadır ve aşağıda bu metin dosyası içeriği örnek üzerinde açıklanmaktadır.
 
-Firma.txt dosyası içeriği:
-
-5,A,B,C,D,E
-n,101,Ali,Ceviz,32,Bilgisayar Muhendisi
-3,4,3,5,1
-i,201,John,Smith,USA,New Jersey
-5,2,1,4,3
-n,102,Veli,Tuz,35,Doktor
-4,3,4,4,2
-n,103,Zeynep,Demir,06,Hemsire
-3,2,4,3,2
-i,202,Mario,Gomez,Almanya,Wolfsburg
-4,1,3,2,1
+- Firma.txt dosyası içeriği:
+- 5,A,B,C,D,E
+- n,101,Ali,Ceviz,32,Bilgisayar Muhendisi
+- 3,4,3,5,1
+- i,201,John,Smith,USA,New Jersey
+- 5,2,1,4,3
+- n,102,Veli,Tuz,35,Doktor
+- 4,3,4,4,2
+- n,103,Zeynep,Demir,06,Hemsire
+- 3,2,4,3,2
+- i,202,Mario,Gomez,Almanya,Wolfsburg
+- 4,1,3,2,1
 
 
 Dosyanın ilk satırında, kaç adet ürün olduğu bilgisi ile ürün adları yer almaktadır. Örneğin, 5 adet
